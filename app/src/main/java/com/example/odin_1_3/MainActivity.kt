@@ -20,8 +20,8 @@ class MainActivity : AppCompatActivity() {
         fun outText (outList: List<Int>) {
 
             var myString: String = ""
-            for (j in 0..9) {
-                myString = myString + outList[j] + " "
+            for (item in myList) {
+                myString = myString + item + " "
             }
 
             val myText: TextView

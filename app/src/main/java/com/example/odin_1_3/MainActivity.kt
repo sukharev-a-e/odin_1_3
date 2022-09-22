@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
         val myEmptyList = emptyList<Int>()
         val myList = myEmptyList.toMutableList()
 
-        for (i in 1..10) {
-            myList.add(i)
+        for (item in 1..10) {
+            myList.add(item)
         }
 
         fun outText (outList: List<Int>) {
